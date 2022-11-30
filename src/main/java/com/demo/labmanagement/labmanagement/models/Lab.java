@@ -1,4 +1,4 @@
-package com.demo.labmanagement.labmanagement;
+package com.demo.labmanagement.labmanagement.models;
 
 public class Lab {
     public Lab() {

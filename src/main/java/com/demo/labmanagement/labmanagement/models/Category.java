@@ -1,4 +1,4 @@
-package com.demo.labmanagement.labmanagement;
+package com.demo.labmanagement.labmanagement.models;
 
 import org.springframework.data.annotation.Id;
 

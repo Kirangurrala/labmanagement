@@ -1,10 +1,18 @@
-package com.demo.labmanagement.labmanagement;
+package com.demo.labmanagement.labmanagement.controllers;
 
 import java.util.ArrayList;
 import java.util.Optional;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import com.demo.labmanagement.labmanagement.models.Author;
+import com.demo.labmanagement.labmanagement.models.Category;
+import com.demo.labmanagement.labmanagement.models.Lab;
+import com.demo.labmanagement.labmanagement.models.LabDto;
+import com.demo.labmanagement.labmanagement.respositories.AuthorRepository;
+import com.demo.labmanagement.labmanagement.respositories.CategoryRepository;
+import com.demo.labmanagement.labmanagement.respositories.LabRepository;
 
 @RestController
 @RequestMapping("/")

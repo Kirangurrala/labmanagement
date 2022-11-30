@@ -1,9 +1,12 @@
-package com.demo.labmanagement.labmanagement;
+package com.demo.labmanagement.labmanagement.controllers;
 
 import java.util.Optional;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import com.demo.labmanagement.labmanagement.models.Category;
+import com.demo.labmanagement.labmanagement.respositories.CategoryRepository;;
 
 @RestController
 @RequestMapping("/")
